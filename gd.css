@@ -1,0 +1,292 @@
+*{
+    margin: 0 auto;
+    background-size: 100% 750px;
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+body,html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    animation: to 5s linear infinite;
+    overflow: auto;
+    width: 100%;
+
+}
+/*@keyframes to {
+    10%{background-color:goldenrod}
+    30%{background-color: yellow;}
+    60%{background-color: orange;}
+}*/
+main {
+    overflow: auto;
+    padding-bottom: 1000px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color:white;
+}
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color:rgb(255, 184, 5);
+    padding-left: 20px;
+}
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: monospace;
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo_container h1 span{
+    font-weight: 800;
+}
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    padding: 8px;
+    float: right;
+}
+.navigation li{
+    display: inline;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    padding: 20px 22px;
+    line-height: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+    font-size: 14px;
+}
+.navigation a:hover{
+    background: black;
+}
+.navigation img{
+    top: 0px;
+    right: 3px;
+}
+img{
+    width: 100%;
+    height: 500px;
+    background-color: goldenrod;
+}
+.abt{
+    margin:20px;
+}
+img{
+    text-align: right;
+}
+.h1{
+    text-align:left;
+    margin: 100px;
+    padding-bottom: 30px;
+}
+.p{
+    background-image: url(g4.jpg);
+    height: 50px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.site-map{
+    align-content: center;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background:rgb(255, 0, 0);
+    color:black;
+    text-align:left;
+    display: contents;
+    position: absolute;
+    bottom: 0px;
+    position: absolute;
+}
+.process{
+
+    position: absolute;
+    right: 80px;
+}
+.head{
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    text-size-adjust: 50px;
+}
+.xy{
+    height: 50px;
+}
+.ref{
+    height: 100px;
+    width: 13%;
+    position: absolute;
+    text-align: left;
+    padding-left: -50px;
+}
+.semi{
+    text-align: left;
+    height: 50%;
+    width: 100%;
+    text-size-adjust: 50px;
+}
+.demi{
+    text-align: right;
+    height: 50%;
+    width: 50%;
+    text-size-adjust: 50px;
+}
+.online{
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  writing-mode: horizontal-tb;
+}
+.icon{
+    text-align: left;
+
+}
+.process{
+    border-radius: 50px;
+    background-color: gray;
+    display: inline-block;
+}
+.a{
+    border-radius: 50px;
+    background-color: gray;
+    display: inline-block;
+}
+.blo{
+    text-align:left;
+    padding-right: 50%;
+}
+.link{
+    height: 50px;
+    width: 1000px;
+    border-radius: 50px;
+    display: inline;
+    text-indent: 80px;
+    letter-spacing: 5px;
+    margin: 20px;
+    position: relative;
+}
+.contacts{
+    height: 200px;
+    display: inline-block;
+    padding: 2px;
+}
+.box{
+    margin: 20px;
+}
+.sec{
+    margin: 20px;
+}
+.sec.h1{
+    text-align: center;
+}
+.copy{
+    background: black;
+    height:150px;
+    color:white;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 30px;
+    text-align: left;
+}
+.gold{
+    background:black;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    height: 30px;
+}
+#feet{
+    text-align: left;
+    color: gold;
+}
+.local{
+    height:700px;
+    width:700px;
+    background:whitesmoke;
+    box-sizing: border-box;
+    box-shadow: 2px;
+    color: white;
+    padding-bottom: 20px;
+}
+/*styling all font awesome icons*/
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+/*add a hover infect if you want*/
+.fa:hover{
+    opacity: 0.7;
+}
+/*set a specific color for each brand*/
+/* facwebook*/
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+    border-radius:100%;
+    width:50px;
+    padding: 3px;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+/*Twitter*/
+.fa-twitter{
+    background:#55ACEE;
+    color: white;
+    border-radius:100%;
+    width:50px;
+    padding: 3px;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+/*instagram*/
+.fa-instagram{
+    background: #fd0324;
+    color: white;
+    border-radius:100%;
+    width:50px;
+    padding: 3px;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+/*whatspp*/
+.fa-whatsapp{
+    background: #04f818;
+    color: white;
+    border-radius:100%;
+    width:50px;
+    padding: 3px;
+    line-height: 50px;
+    box-sizing: border-box;
+}#boom{
+    display:block;
+    color: rgb(97, 96, 90);
+    text-decoration: none;
+    list-style: none;
+    box-shadow: 3px opx;
+}
